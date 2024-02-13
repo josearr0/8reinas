@@ -1,0 +1,97 @@
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+body {
+  font-family:  sans-serif;
+}
+table {
+  border-collapse: collapse; 
+  border-width: 1px; 
+  border-style: solid; 
+  border-spacing: 0 50px;
+  border-color: black;
+  width: 600px; 
+  height: 600px; 
+} 
+
+td,
+th {
+  border-width: 1px;
+  border-style: solid;
+  width: 50px;
+  height: 50px;
+  position: relative;
+}
+
+tr:nth-child(even) td:nth-child(even),
+tr:nth-child(odd) td:nth-child(odd) {
+  background-color: #eee;
+}
+
+tr:nth-child(even) td:nth-child(odd),
+tr:nth-child(odd) td:nth-child(even) {
+  background-color: #000000;
+}
+
+.reina-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 80%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boton button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #454545; 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton button:hover {
+  background-color: #d32f2f; 
+}
+
+#soluciones {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #454545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: fixed;
+  top: 40%; 
+  right: 450px;
+  transform: translateY(-50%);
+}
+
+#soluciones:hover {
+  background-color: #d32f2f; 
+}
+
+
+
+
